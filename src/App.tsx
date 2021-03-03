@@ -4,7 +4,6 @@ import Box from '@material-ui/core/Box';
 import { StyledButtonTrue, StyledButtonFalse } from "./style";
 import { connect } from "react-redux";
 import { ThunkDispatch } from "redux-thunk";
-import { AnyAction } from "redux";
 import { IStore } from "./reducers";
 import { getQuizListItem } from "./actions/quiz";
 
